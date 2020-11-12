@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace grupp_survey
+namespace SSCUP
 {
     class Program
     {
