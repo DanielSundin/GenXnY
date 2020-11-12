@@ -7,6 +7,7 @@ namespace grupp_survey
         static void Main(string[] args)
         {
             Console.WriteLine("Hello SSCUP");
+            System.Console.WriteLine("All your base are belong to Markert");
         }
     }
 }
