@@ -2,7 +2,20 @@ namespace SscupClassLibrary
 {
     internal class ScaleQuestion : Question
     {
-        public int Answer { get; set; }
+        // public enum Answer { get; set; }
+        
+        internal ScaleQuestion(string text) : base(text)
+        {
+           this.Text = text; 
+        }
     }
-    
+
+    public enum ScaleAnswer  
+    {
+        Horrible = 1,
+        Bad,   
+        Neutral,
+        Good,     
+        Great
+    }
 }

@@ -2,7 +2,10 @@ namespace SscupClassLibrary
 {
     internal class YesNoQuestion : Question
     {
-        public bool Answer { get; set; }
+        protected bool Answer { get; set; }
+        public YesNoQuestion(string text) : base(text)
+        {
+            Text = text;
+        }
     }
-    
 }
